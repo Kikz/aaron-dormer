@@ -1,0 +1,46 @@
+
+
+/*-------------*/
+/*---Globals---*/
+/*-------------*/
+@import './partials/shared/_info';
+@import './partials/shared/_globals';
+
+
+/*------------*/
+/*---Shared---*/
+/*------------*/
+@import './partials/shared/_shared';
+/*---Menus---*/
+@import './partials/shared/menus/_header';
+@import './partials/shared/menus/_mobileMenu';
+/*---Footer---*/
+@import './partials/shared/_footer';
+
+
+/*-----------------*/
+/*---Commercials---*/
+/*-----------------*/
+@import './partials/commercials/mainSlideshow/_mainSlideshow';
+@import './partials/commercials/mainSlideshow/_arrowsSlide';
+
+
+/*-----------*/
+/*---Films---*/
+/*-----------*/
+// Shared mainSlidshow with commercials
+@import './partials/films/_filmSlideshow';
+
+
+/*-----------*/
+/*---About--*/
+/*-----------*/
+@import './partials/about/_about';
+
+
+/*------------*/
+/*---Contact--*/
+/*------------*/
+@import './partials/contact/_contact';
+
+

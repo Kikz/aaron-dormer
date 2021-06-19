@@ -1,0 +1,12 @@
+@import '../shared/_info';
+
+/*-------------*/
+/*---Contact---*/
+/*-------------*/
+
+.contactContainer{
+    background: $white;
+
+    @import './_contactTopFold';
+    @import './_contactPresentation';
+}

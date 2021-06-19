@@ -1,0 +1,47 @@
+@import '../shared/_info';
+
+/*---About Top Fold--*/
+/*-------------------*/
+
+.aboutPresentation{
+    margin: 200px auto 210px;
+    /* margin: 28.6vh auto 30vh; */
+    //margin: 28.6vh auto 17vh;
+    margin: 28.6vh auto 14vh;
+
+    .aboutParagraphs{
+
+        p{
+            font-family: $font-stack-display;
+            font-weight: 400;
+            /* font-size: 40px; */
+            //font-size: 20px;
+            font-size: calc(20px * 0.9);
+            /* font-size: 3.91236306729vw; */
+            color: $black;
+            line-height: 24px;
+            /* line-height: 3.83411580595vw; */
+            width: 61vw;
+            width: 43vw;
+            margin: 20px auto 21px;
+            /* margin: 28.6vh auto 30vh; */
+            @media (max-width: 1025px){
+                font-size: 30px;
+                line-height: 33px;
+                width: 50vw;
+            }
+            @media (max-width: 960px){
+                font-size: 28px;
+                line-height: 30px;
+                width: 60vw;
+            }
+            @media (max-width: 600px){
+                font-size: 26px;
+                /* font-size: 5.40541vw; */
+                font-size: 28px;
+                /* font-size: 5.40541vw; */
+                width: 80vw;
+            }
+        }
+    }
+}

@@ -1,0 +1,79 @@
+@import '../shared/_info';
+
+/*---Contact Top Fold--*/
+/*---------------------*/
+
+.contactPresentation{
+    position: relative;
+    margin: 140px auto 250px;
+    /* margin: 20.6008583691vw auto 0; */
+
+    .fotoContactDetails{
+        margin: 0 0 0 120px;
+        background: url("../img/contactDetailsFoto.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 440px;
+        width: 34vw;
+        height: 600px;
+        height: 86vh;
+        display: inline-block;
+        @media (max-width: 960px) {
+            margin: 0 auto;
+            width: 440px;
+            width: 80vw;
+            height: 600px;
+            height: 86vh;
+            display: none;
+        }
+    }
+    .containerContactDetails {
+        display: inline-block;
+        @media (max-width: 960px) {
+            display: block;
+        }
+
+        h2{
+            font-family: $font-stack-display;
+            font-weight: 400;
+            font-size: 180px;
+            //font-size: 14vw; 'Rokkit'
+            font-size: calc(14vw * 0.9);
+            color: $black;
+            position: relative;
+            top: calc(-330px + 80px);
+            top: -250px;
+            top: -35.7653791vh;
+            left: 30px;
+            left: 2.34741784vw;
+            letter-spacing: -0.004em;
+            @media (max-width: 960px) {
+                font-size: 180px;
+                font-size: 14vw;
+                position: static;
+                margin: 0 auto;
+                text-align: center;
+            }
+        }
+        p{
+            font-size: 14px;
+            color: $black;
+            position: relative;
+            top: calc(-330px + 80px + 30px);
+            top: -230px;
+            top: -32.9041488vh;
+            left: 50px;
+            left: 3.91236307vw;
+            @media (max-width: 960px) {
+                font-size: 14px;
+                text-align: center;
+                position: static;
+            }
+
+            span{
+                color: $grey;
+            }
+        }
+    }
+}

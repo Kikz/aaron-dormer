@@ -1,0 +1,14 @@
+@import '../shared/_info';
+
+/*-----------*/
+/*---About--*/
+/*-----------*/
+
+.aboutContainer{
+    background: $white;
+ 
+    @import './_aboutTopFold';
+    @import './_aboutPresentation';
+    @import './_aboutPDF';
+    @import './_aboutContact';
+}

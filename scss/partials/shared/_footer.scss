@@ -1,0 +1,38 @@
+@import '../shared/_info';
+
+/*------------*/
+/*---Footer---*/
+/*------------*/
+
+.footerFollow{
+    position: absolute;
+    color: $lightGrey;
+    bottom: 30px;
+    right: 50px;
+    font-size: 14px;
+    a{
+        color: $lightGrey;
+        text-decoration: none;
+        transition: color 0.4s;
+        padding: 15px 0;
+        &:hover{
+            color: $white;
+        }
+    }
+}
+
+.contactContainer{
+    
+    .footerContact{
+        bottom: -220px;
+        color: $mediumGrey;
+
+        a{
+            color: $mediumGrey;
+
+            &:hover{
+                color: $black;
+            }
+        }
+    }
+}
